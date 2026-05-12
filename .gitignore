@@ -1,0 +1,56 @@
+# Databases — too large for GitHub
+data/*.db
+
+# Raw and clean data folders — too large
+data/raw/
+data/clean/
+
+# Generated output files
+data/equity_curve*.csv
+data/trade_log*.csv
+data/sip_log*.csv
+data/mode_log*.csv
+
+# API keys — never push these
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Large model files
+*.pt
+*.pkl
+*.h5
+data/*.db
+data/*.csv
+data/clean/
+data/raw/
+__pycache__/
+*/__pycache__/
